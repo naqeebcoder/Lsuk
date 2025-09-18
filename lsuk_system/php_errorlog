@@ -1,0 +1,5 @@
+[17-Jun-2025 12:10:27 Europe/London] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/customer/www/lsuk.org/public_html/lsuk_system/client_response_ts.php on line 13
+[27-Jun-2025 13:08:12 Europe/London] PHP Parse error:  syntax error, unexpected ',' in /home/customer/www/lsuk.org/public_html/lsuk_system/invite_event_form.php on line 42
+[14-Jul-2025 13:37:42 Europe/London] PHP Warning:  Use of undefined constant here - assumed 'here' (this will throw an Error in a future version of PHP) in /home/customer/www/lsuk.org/public_html/lsuk_system/interp_work_list.php on line 16
+[16-Jul-2025 12:54:23 Europe/London] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/lsuk.org/public_html/lsuk_system/telep_edit.php on line 518
+[01-Sep-2025 10:09:32 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/customer/www/lsuk.org/public_html/lsuk_system/full_view_interpreter_ts.php on line 1028

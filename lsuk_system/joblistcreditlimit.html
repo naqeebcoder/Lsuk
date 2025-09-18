@@ -1,0 +1,81 @@
+<script src="js/debug.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+	function GetOrganizationFields() {
+		var orgName = $('#orgName').val();
+		console.log(orgName);
+		var stream = 'orgName=' + orgName;
+		$.ajax({
+			type: 'POST',
+			url: 'get_values_autofil_textbox_new.php?table=comp_reg&comp=abrv&val=' + orgName,
+			data: stream,
+			success: function (ajaxresult) {
+				obj = JSON.parse(ajaxresult);
+				if(orgName=="BHS" || orgName=="T"){
+					$('#inchEmail2').val('awp.hopeserviceadmin@nhs.net'); $('#inchEmail2').attr('data-value', 'awp.hopeserviceadmin@nhs.net');
+				}else{
+					$('#inchEmail2').val('');$('#inchEmail2').attr('data-value','');
+				}
+				// $('#orgContact').val(obj.contactPerson); $('#orgContact').attr('data-value', obj.contactPerson);
+				// $('#inchPerson').val(obj.contactPerson); $('#inchPerson').attr('data-value', obj.contactPerson);
+				// $('#inchEmail').val(obj.email); $('#inchEmail').attr('data-value', obj.email);
+				// $('#inchContact').val(obj.contactNo); $('#inchContact').attr('data-value', obj.contactNo);
+				$('#inchCity').val(obj.city); $('#inchCity').attr('data-value', obj.city);
+				$('#inchRoad').val(obj.inchRoad); $('#inchRoad').attr('data-value', obj.inchRoad);
+				$('#inchNo').val(obj.inchNo); $('#inchNo').attr('data-value', obj.inchNo);
+				$('#inchPcode').val(obj.inchPcode); $('#inchPcode').attr('data-value', obj.inchPcode);
+				$('#line1').val(obj.line1); $('#line1').attr('data-value', obj.line1);
+				$('#line2').val(obj.line2); $('#line2').attr('data-value', obj.line2);
+				// $('#bookinType').val(obj.bookingType);
+				//console.log("gfr:"+obj.bookingType);
+				$('#rem_bz_credit').val(obj.bz_credit);
+				$('#creditId').val(obj.creditId);
+				$("#po_number").bootstrapToggle('off');
+				$('#purchase_order_number').val("");
+				$('#div_po_number').addClass('hidden');
+				$('#write_booking_email').html(obj.email);
+				if (obj.po_req == 1) {
+					$('#po_req').attr('required', 'required');
+					$('#div_po_req').removeClass('hidden');
+					//$('#po_req').val(obj.po_email);
+					$('#po_req').attr('data-value', obj.po_email);
+					$('#write_po_email').html(obj.po_email);
+					$('#div_check_po').removeClass('hidden');
+				} else {
+					$('#po_req').removeAttr("required");
+					$('#div_po_req').addClass('hidden');
+					$('#po_req').val('');
+					$('#div_check_po').addClass('hidden');
+				}
+				//alert("vfrsagfr:"+obj.bookingType);				
+				DebugHere();
+				// if (obj.bz_credit < obj.bizcreditlimit) {
+				// 	//alert("over OBEWRDWE");
+				// 	$('#alertcredit').css({ display: "" });
+				// }
+				// else {
+				// 	//alert("OK OBEWRDWE:"+obj.bz_credit+","+obj.bizcreditlimit);
+				// 	$('#alertcredit').css({ display: "hidden" });
+				// }
+				console.log(obj.inv_cost);
+				console.log(obj.credit_limit);
+
+				if(obj.inv_cost>obj.credit_limit){
+					$('#alertcredit').css({ "background-color": "red", "font-weight":"bold"});
+					$('#alertcredit').val("Over Credit Alert");
+					// alert("OVER CREDIT ALTER! Can not Proceed with this booking.");
+					// location.reload();
+				}else{
+					$('#alertcredit').css({ "background-color": "green", "font-weight":"bold"});
+					$('#alertcredit').val("Credit in Limit");
+				}
+			}
+		});
+	}    
+</script>
+<div class="form-group col-md-2 col-sm-6">
+	<label>Credit Information</label>
+	<input name="alertcredit" type="text" id="alertcredit" placeholder='Credit Details' readonly="readonly"
+		class="form-control"  title="Credit Details" />
+</div>

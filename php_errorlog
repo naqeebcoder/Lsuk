@@ -1,0 +1,316 @@
+[13-Jun-2025 02:43:51 Europe/London] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/customer/www/lsuk.org/public_html/order_interpreter_prem.php on line 743
+[21-Jun-2025 04:34:14 Europe/London] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/customer/www/lsuk.org/public_html/order_interpreter_prem.php on line 743
+[30-Jun-2025 07:10:28 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[30-Jun-2025 07:10:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[30-Jun-2025 07:10:28 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[30-Jun-2025 07:10:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 10:30:17 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 10:30:17 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 10:30:18 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 10:30:18 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 10:50:38 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 10:50:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 10:50:38 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 10:50:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 10:50:44 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 10:50:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 10:50:44 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 10:50:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 11:07:35 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 11:07:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 11:07:35 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 11:07:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 11:14:04 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 11:14:04 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 11:23:29 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 11:23:29 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 11:23:29 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 11:23:29 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 11:25:11 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 11:25:11 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 11:25:11 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 11:25:11 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 11:52:45 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 11:52:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 11:52:45 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 11:52:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 14:02:26 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 14:02:26 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[01-Jul-2025 14:02:26 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[01-Jul-2025 14:02:26 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[02-Jul-2025 18:59:22 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[02-Jul-2025 18:59:22 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[02-Jul-2025 18:59:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[02-Jul-2025 18:59:25 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 01:33:12 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 01:33:12 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 09:54:44 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 09:54:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 09:54:44 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 09:54:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:06:41 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:06:41 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:06:41 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:06:41 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:14:33 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:14:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:14:33 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:14:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:17:35 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:17:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:17:35 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:17:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:34:48 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:34:48 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:34:48 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:34:48 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:34:58 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:34:58 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 10:34:58 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 10:34:58 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 11:27:26 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 11:27:26 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 11:27:26 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 11:27:26 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 12:00:21 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 12:00:21 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 12:00:22 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 12:00:22 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 13:21:16 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 13:21:16 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 13:21:16 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 13:21:16 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 14:02:17 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[04-Jul-2025 14:02:17 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[04-Jul-2025 19:57:11 Europe/London] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/customer/www/lsuk.org/public_html/order_interpreter_prem.php on line 743
+[05-Jul-2025 02:01:30 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[05-Jul-2025 02:01:30 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[05-Jul-2025 14:01:24 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[05-Jul-2025 14:01:24 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[06-Jul-2025 02:10:51 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[06-Jul-2025 02:10:51 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[08-Jul-2025 12:11:42 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[08-Jul-2025 12:11:42 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[08-Jul-2025 12:11:42 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[08-Jul-2025 12:11:42 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[08-Jul-2025 12:11:52 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[08-Jul-2025 12:11:52 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[08-Jul-2025 12:11:52 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[08-Jul-2025 12:11:52 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[08-Jul-2025 12:48:44 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[08-Jul-2025 12:48:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[08-Jul-2025 12:48:44 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[08-Jul-2025 12:48:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[14-Jul-2025 07:05:05 Europe/London] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/customer/www/lsuk.org/public_html/order_interpreter_prem.php on line 743
+[16-Jul-2025 11:15:46 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[16-Jul-2025 11:15:46 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277
+[16-Jul-2025 11:15:46 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/cpd_reply.php on line 13
+[16-Jul-2025 11:15:46 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/source/class.php:277
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/cpd_reply.php(14): actionClass->read_specific('interpreter_reg...', 'interpreter_reg', 'interpreter_reg...')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/source/class.php on line 277

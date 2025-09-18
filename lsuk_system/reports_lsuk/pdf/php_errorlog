@@ -1,0 +1,48 @@
+[05-Aug-2025 13:29:14 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/lsuk_system/actions.php:57
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php(146): actionsClass->read_specific('GROUP_CONCAT(CO...', 'interp_types', 'it_id IN ()')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/lsuk_system/actions.php on line 57
+[05-Aug-2025 13:29:16 Europe/London] PHP Notice:  Undefined variable: signature in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 376
+[05-Aug-2025 13:29:16 Europe/London] PHP Warning:  chr() expects parameter 1 to be int, string given in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/include/tcpdf_fonts.php on line 1671
+[05-Aug-2025 13:29:16 Europe/London] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/tcpdf.php on line 16546
+[05-Aug-2025 13:29:16 Europe/London] PHP Notice:  Undefined index: send_sms in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 791
+[05-Aug-2025 13:29:24 Europe/London] PHP Notice:  Undefined variable: signature in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 376
+[05-Aug-2025 13:29:24 Europe/London] PHP Warning:  chr() expects parameter 1 to be int, string given in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/include/tcpdf_fonts.php on line 1671
+[05-Aug-2025 13:29:24 Europe/London] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/tcpdf.php on line 16546
+[05-Aug-2025 13:29:25 Europe/London] PHP Notice:  Undefined index: send_sms in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 791
+[05-Aug-2025 13:29:29 Europe/London] PHP Notice:  Undefined variable: signature in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 376
+[05-Aug-2025 13:29:29 Europe/London] PHP Warning:  chr() expects parameter 1 to be int, string given in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/include/tcpdf_fonts.php on line 1671
+[05-Aug-2025 13:29:29 Europe/London] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/tcpdf.php on line 16546
+[05-Aug-2025 13:29:29 Europe/London] PHP Notice:  Undefined index: send_sms in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 791
+[05-Aug-2025 13:32:02 Europe/London] PHP Warning:  chr() expects parameter 1 to be int, string given in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/include/tcpdf_fonts.php on line 1671
+[05-Aug-2025 13:32:02 Europe/London] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/tcpdf.php on line 16546
+[05-Aug-2025 13:32:02 Europe/London] PHP Notice:  Undefined offset: 2 in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 788
+[05-Aug-2025 13:32:26 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/lsuk.org/public_html/lsuk_system/actions.php:57
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php(147): actionsClass->read_specific('GROUP_CONCAT(CO...', 'interp_types', 'it_id IN ()')
+#1 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/lsuk_system/actions.php on line 57
+[05-Aug-2025 13:33:01 Europe/London] PHP Warning:  chr() expects parameter 1 to be int, string given in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/include/tcpdf_fonts.php on line 1671
+[05-Aug-2025 13:33:01 Europe/London] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/tcpdf.php on line 16546
+[05-Aug-2025 13:33:01 Europe/London] PHP Notice:  Undefined offset: 2 in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 788
+[05-Aug-2025 13:33:02 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 147
+[05-Aug-2025 13:33:02 Europe/London] PHP Notice:  Undefined variable: signature in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 377
+[05-Aug-2025 13:33:02 Europe/London] PHP Warning:  chr() expects parameter 1 to be int, string given in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/include/tcpdf_fonts.php on line 1671
+[05-Aug-2025 13:33:02 Europe/London] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/tcpdf.php on line 16546
+[05-Aug-2025 13:33:03 Europe/London] PHP Notice:  Undefined index: send_sms in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 792
+[05-Aug-2025 13:33:03 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/lsuk_system/actions.php:66) in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/tcpdf.php on line 7628
+[05-Aug-2025 13:33:23 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 147
+[05-Aug-2025 13:37:01 Europe/London] PHP Warning:  chr() expects parameter 1 to be int, string given in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/include/tcpdf_fonts.php on line 1671
+[05-Aug-2025 13:37:01 Europe/London] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/tcpdf.php on line 16546
+[05-Aug-2025 13:37:01 Europe/London] PHP Notice:  Undefined offset: 2 in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 789
+[05-Aug-2025 13:37:24 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 147
+[05-Aug-2025 13:37:30 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 147
+[05-Aug-2025 13:37:43 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 147
+[05-Aug-2025 13:38:16 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 147
+[05-Aug-2025 13:38:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/new_timesheet.php on line 147
+[02-Sep-2025 10:02:44 UTC] PHP Parse error:  syntax error, unexpected '.', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/rip_multiple_inv.php on line 310
+[02-Sep-2025 10:02:51 UTC] PHP Parse error:  syntax error, unexpected '.', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/rip_multiple_inv.php on line 310
+[02-Sep-2025 10:02:53 UTC] PHP Parse error:  syntax error, unexpected '.', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/rip_multiple_inv.php on line 310
+[02-Sep-2025 10:02:57 UTC] PHP Parse error:  syntax error, unexpected '.', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/rip_multiple_inv.php on line 310
+[02-Sep-2025 10:03:13 UTC] PHP Parse error:  syntax error, unexpected '.', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/customer/www/lsuk.org/public_html/lsuk_system/reports_lsuk/pdf/rip_multiple_inv.php on line 310

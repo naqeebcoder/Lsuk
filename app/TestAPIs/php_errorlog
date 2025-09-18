@@ -1,0 +1,166 @@
+[12-Jun-2025 09:09:54 Europe/London] PHP Warning:  require(../lsuk_system/token_api.php): failed to open stream: No such file or directory in /home/customer/www/lsuk.org/public_html/app/action.php on line 186
+[12-Jun-2025 09:09:54 Europe/London] PHP Fatal error:  require(): Failed opening required '../lsuk_system/token_api.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/lsuk.org/public_html/app/action.php on line 186
+[12-Jun-2025 09:10:23 Europe/London] PHP Warning:  require(../lsuk_system/token_api.php): failed to open stream: No such file or directory in /home/customer/www/lsuk.org/public_html/app/action.php on line 187
+[12-Jun-2025 09:10:23 Europe/London] PHP Fatal error:  require(): Failed opening required '../lsuk_system/token_api.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/lsuk.org/public_html/app/action.php on line 187
+[12-Jun-2025 09:11:18 Europe/London] PHP Warning:  require(../lsuk_system/token_api.php): failed to open stream: No such file or directory in /home/customer/www/lsuk.org/public_html/app/action.php on line 187
+[12-Jun-2025 09:11:18 Europe/London] PHP Fatal error:  require(): Failed opening required '../lsuk_system/token_api.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/lsuk.org/public_html/app/action.php on line 187
+[12-Jun-2025 09:13:28 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Google\Auth\Credentials\ServiceAccountCredentials' not found in /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php:6
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(11): getAccessToken_new('firebase_file/l...')
+#1 /home/customer/www/lsuk.org/public_html/app/action.php(187): require('/home/customer/...')
+#2 /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php(34): actionClass->notify_ts('ehZh-vlrT9ydcHL...', '\xF0\x9F\x94\x94 Mark your ...', 'Good morning!\nC...', Array)
+#3 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php on line 6
+[12-Jun-2025 11:02:25 Europe/London] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php on line 3
+[12-Jun-2025 11:02:41 Europe/London] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php:126
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(6): Google\Auth\Credentials\ServiceAccountCredentials->__construct(Array, 'firebase_file/l...')
+#1 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(11): getAccessToken_new('firebase_file/l...')
+#2 /home/customer/www/lsuk.org/public_html/app/action.php(187): require('/home/customer/...')
+#3 /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php(34): actionClass->notify_ts('ehZh-vlrT9ydcHL...', '\xF0\x9F\x94\x94 Mark your ...', 'Good morning!\nC...', Array)
+#4 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php on line 126
+[12-Jun-2025 11:05:17 Europe/London] PHP Notice:  Undefined variable: serviceAccountFile in /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php on line 41
+[12-Jun-2025 11:05:17 Europe/London] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php on line 133
+[12-Jun-2025 11:05:17 Europe/London] PHP Fatal error:  Uncaught InvalidArgumentException: json key is missing the client_email field in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php:134
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(27): Google\Auth\Credentials\ServiceAccountCredentials->__construct(Array, NULL)
+#1 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(41): getCachedAccessToken(NULL)
+#2 /home/customer/www/lsuk.org/public_html/app/action.php(187): require('/home/customer/...')
+#3 /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php(34): actionClass->notify_ts('ehZh-vlrT9ydcHL...', '\xF0\x9F\x94\x94 Mark your ...', 'Good morning!\nC...', Array)
+#4 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php on line 134
+[12-Jun-2025 11:05:46 Europe/London] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php:126
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(27): Google\Auth\Credentials\ServiceAccountCredentials->__construct(Array, 'firebase_file/l...')
+#1 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(41): getCachedAccessToken('firebase_file/l...')
+#2 /home/customer/www/lsuk.org/public_html/app/action.php(187): require('/home/customer/...')
+#3 /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php(34): actionClass->notify_ts('ehZh-vlrT9ydcHL...', '\xF0\x9F\x94\x94 Mark your ...', 'Good morning!\nC...', Array)
+#4 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php on line 126
+[12-Jun-2025 12:11:17 Europe/London] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php:126
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(20): Google\Auth\Credentials\ServiceAccountCredentials->__construct(Array, 'firebase_file/l...')
+#1 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(34): getCachedAccessToken('firebase_file/l...')
+#2 /home/customer/www/lsuk.org/public_html/app/action.php(197): include('/home/customer/...')
+#3 /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php(34): actionClass->notify_ts('ehZh-vlrT9ydcHL...', '\xF0\x9F\x94\x94 Mark your ...', 'Good morning!\nC...', Array)
+#4 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php on line 126
+[12-Jun-2025 12:12:13 Europe/London] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php:126
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(20): Google\Auth\Credentials\ServiceAccountCredentials->__construct(Array, 'firebase_file/l...')
+#1 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(34): getCachedAccessToken('firebase_file/l...')
+#2 /home/customer/www/lsuk.org/public_html/app/action.php(199): include('/home/customer/...')
+#3 /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php(34): actionClass->notify_ts('ehZh-vlrT9ydcHL...', '\xF0\x9F\x94\x94 Mark your ...', 'Good morning!\nC...', Array)
+#4 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php on line 126
+[12-Jun-2025 12:12:43 Europe/London] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php:126
+Stack trace:
+#0 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(20): Google\Auth\Credentials\ServiceAccountCredentials->__construct(Array, 'firebase_file/l...')
+#1 /home/customer/www/lsuk.org/public_html/lsuk_system/token_api.php(34): getCachedAccessToken('firebase_file/l...')
+#2 /home/customer/www/lsuk.org/public_html/app/action.php(199): include('/home/customer/...')
+#3 /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php(34): actionClass->notify_ts('ehZh-vlrT9ydcHL...', '\xF0\x9F\x94\x94 Mark your ...', 'Good morning!\nC...', Array)
+#4 {main}
+  thrown in /home/customer/www/lsuk.org/public_html/lsuk_system/googleauth/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php on line 126
+[12-Jun-2025 12:13:36 Europe/London] PHP Parse error:  syntax error, unexpected '$cached' (T_VARIABLE) in /home/customer/www/lsuk.org/public_html/app/action.php on line 190
+[12-Jun-2025 12:19:50 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/action.php:248) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 39
+[12-Jun-2025 12:37:01 Europe/London] PHP Notice:  Undefined variable: cacheFile in /home/customer/www/lsuk.org/public_html/app/action.php on line 189
+[12-Jun-2025 12:37:01 Europe/London] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/customer/www/lsuk.org/public_html/app/action.php on line 203
+[12-Jun-2025 12:37:01 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/action.php:189) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 15
+[12-Jun-2025 12:59:24 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/action.php:250) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 15
+[04-Jul-2025 11:30:23 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 167
+[04-Jul-2025 11:31:29 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 175
+[04-Jul-2025 11:31:33 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 175
+[04-Jul-2025 11:32:05 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 175
+[04-Jul-2025 11:32:21 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 175
+[04-Jul-2025 11:32:36 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 176
+[04-Jul-2025 11:32:57 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 176
+[04-Jul-2025 11:35:46 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 170
+[04-Jul-2025 11:40:29 Europe/London] PHP Notice:  Undefined variable: conn in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 154
+[04-Jul-2025 11:40:29 Europe/London] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 154
+[04-Jul-2025 11:40:29 Europe/London] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 156
+[04-Jul-2025 11:40:29 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:154) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 190
+[04-Jul-2025 11:41:09 Europe/London] PHP Notice:  Undefined variable: con in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 154
+[04-Jul-2025 11:41:09 Europe/London] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 154
+[04-Jul-2025 11:41:09 Europe/London] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 156
+[04-Jul-2025 11:41:09 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:154) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 190
+[23-Jul-2025 17:10:07 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 49
+[23-Jul-2025 17:10:07 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 50
+[23-Jul-2025 17:10:07 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:49) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 87
+[24-Jul-2025 06:26:00 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 49
+[24-Jul-2025 06:26:00 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 50
+[24-Jul-2025 06:26:00 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:49) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 87
+[25-Jul-2025 12:31:58 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 49
+[25-Jul-2025 12:31:58 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 50
+[25-Jul-2025 12:31:58 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:49) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 87
+[29-Jul-2025 06:45:50 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[29-Jul-2025 06:45:50 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[29-Jul-2025 06:45:50 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[29-Jul-2025 07:47:59 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[29-Jul-2025 07:47:59 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[29-Jul-2025 07:47:59 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[29-Jul-2025 08:13:13 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[29-Jul-2025 08:13:13 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[29-Jul-2025 08:13:13 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[29-Jul-2025 10:27:40 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[29-Jul-2025 10:27:40 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[29-Jul-2025 10:27:40 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[30-Jul-2025 07:04:39 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[30-Jul-2025 07:04:39 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[30-Jul-2025 07:04:39 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[30-Jul-2025 07:06:02 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[30-Jul-2025 07:06:02 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[30-Jul-2025 07:06:02 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[30-Jul-2025 07:08:08 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[30-Jul-2025 07:08:08 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[30-Jul-2025 07:08:08 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[31-Jul-2025 13:19:08 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 50
+[31-Jul-2025 13:19:08 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:50) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 87
+[31-Jul-2025 13:28:43 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[31-Jul-2025 13:28:43 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[31-Jul-2025 13:28:43 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[31-Jul-2025 13:28:56 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 49
+[31-Jul-2025 13:28:56 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 50
+[31-Jul-2025 13:28:56 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:49) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 87
+[01-Aug-2025 06:20:05 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 49
+[01-Aug-2025 06:20:05 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 50
+[01-Aug-2025 06:20:05 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:49) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 87
+[05-Aug-2025 08:01:51 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[05-Aug-2025 08:01:51 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[05-Aug-2025 08:01:51 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[05-Aug-2025 08:04:09 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 49
+[05-Aug-2025 08:04:09 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 50
+[05-Aug-2025 08:04:09 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:49) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 87
+[06-Aug-2025 11:19:41 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[06-Aug-2025 11:19:41 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[06-Aug-2025 11:19:41 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[06-Aug-2025 11:20:21 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[06-Aug-2025 11:20:21 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[06-Aug-2025 11:20:21 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[07-Aug-2025 06:53:55 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[07-Aug-2025 06:53:55 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[07-Aug-2025 06:53:55 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[07-Aug-2025 07:54:34 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[07-Aug-2025 07:54:34 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[07-Aug-2025 07:54:34 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[07-Aug-2025 08:59:51 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[07-Aug-2025 08:59:51 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[07-Aug-2025 08:59:51 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[08-Aug-2025 08:37:56 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[08-Aug-2025 08:37:56 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[08-Aug-2025 08:37:56 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[08-Aug-2025 08:38:44 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 49
+[08-Aug-2025 08:38:44 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 50
+[08-Aug-2025 08:38:44 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:49) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 87
+[18-Aug-2025 11:35:45 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[18-Aug-2025 11:35:45 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[18-Aug-2025 11:35:45 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[20-Aug-2025 08:15:28 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[20-Aug-2025 08:15:28 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[20-Aug-2025 08:15:29 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[02-Sep-2025 08:18:37 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 94
+[02-Sep-2025 08:18:37 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 95
+[02-Sep-2025 08:18:37 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:94) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 135
+[02-Sep-2025 08:18:42 Europe/London] PHP Notice:  Undefined index: assignDate in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 49
+[02-Sep-2025 08:18:42 Europe/London] PHP Notice:  Undefined index: assignTime in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 50
+[02-Sep-2025 08:18:42 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php:49) in /home/customer/www/lsuk.org/public_html/app/TestAPIs/test_apis.php on line 87

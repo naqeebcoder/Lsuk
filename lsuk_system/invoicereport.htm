@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LSUK-Invoice</title>
+    <link rel="license" href="http://www.scholarshipgalaxy.com">
+    
+    <style type="text/css">
+      /* reset */
+
+
+      /* content editable */
+
+      *[contenteditable] { min-width: 1em; outline: 0; }
+
+      *[contenteditable] { cursor: pointer; }
+
+      *[contenteditable]:hover, *[contenteditable]:focus, td:hover *[contenteditable], td:focus *[contenteditable], img.hover { background: #DEF; box-shadow: 0 0 1em 0.5em #DEF; }
+
+      /*span[contenteditable] { display: inline-block; }*/
+
+      /* heading */
+      h1 { font: bold 100% Ubuntu, Arial, sans-serif; text-align: center; text-transform: uppercase; }
+
+      /* table */
+
+      table { font-size: 75%; table-layout: fixed; width: 100%; }
+      table { border-collapse: separate; border-spacing: 2px; }
+      th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
+      th, td {  border-style: solid; }
+      th { background: #EEE; border-color: #BBB; }
+      td { border-color: #DDD; }
+
+      /* page */
+
+      html { font: 16px/1 'Open Sans', sans-serif; overflow: auto; }
+      html { background: #fff; cursor: default; }
+
+      body { box-sizing: border-box; margin:0;}
+      #wrapper{margin: 0 auto; margin-left:20px; width: 18.5cm;}
+      body { background: #FFF;}
+
+      /* header */
+
+      div.header { margin: 0 0 3em; }
+      div.header:after { clear: both; content: ""; display: table; }
+
+      div.header h1 { background: #000; color: #FFF; margin: 0 0 1em; padding: 0.5em 0; }
+      div.header address { float: left; font-size: 75%; font-style: normal; line-height: 1.25; margin: 0 1em 1em 0; }
+      div.header address p { margin: 0 0 0.25em; }
+      div.header span, div.header img { display: block; float: right; }
+      div.header span { margin: 0 0 1em 1em; max-height: 25%; max-width: 60%; position: relative; }
+      div.header img { max-height: 100%; max-width: 50%; }
+      div.header input { cursor: pointer; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; height: 100%; left: 0; opacity: 0; position: absolute; top: 0; width: 100%; }
+
+      /* article */
+
+      div.article, div.article address, table.meta, table.inventory { margin: 0 0 3em; }
+      div.article:after { clear: both; content: ""; display: table; }
+      div.article h1 { clip: rect(0 0 0 0); position: absolute; }
+
+      div.article address { float: left; font-size: 125%; font-weight: bold; }
+
+      /* table meta & balance */
+
+      table.meta, table.balance {  width: 36%; margin-top:-90px;text-align:right }
+      table.meta:after, table.balance:after { clear: both; content: ""; display: table; }
+
+      /* table meta */
+
+      table.meta th { width: 40%; }
+      table.meta td { width: 60%; }
+
+      /* table items */
+
+      table.inventory { clear: both; width: 100%; }
+      table.inventory th { font-weight: bold; text-align: left; }
+
+      table.inventory td:nth-child(1) { width: 26%; }
+      table.inventory td:nth-child(2) { width: 38%; }
+      table.inventory td:nth-child(3) { text-align: left; width: 12%; }
+      table.inventory td:nth-child(4) { text-align: left; width: 12%; }
+      table.inventory td:nth-child(5) { text-align: left; width: 12%; }
+
+      /* table balance */
+
+      table.balance th, table.balance td { width: 50%; }
+      table.balance td { text-align: left; }
+
+      /* aside */
+
+      h1.aside { border: none; border-width: 0 0 1px; margin: 0 0 1em; }
+      h1.aside { border-color: #999; border-bottom-style: solid; }
+
+      .cutw{position:relative;}
+      /* javascript */
+
+      .add, .cut
+      {
+        border-width: 1px;
+        display: block;
+        font-size: .8em;
+        padding: 0.25em;
+        float: left;
+        text-align: center;
+        width:0.8em;
+      }
+      .cut{font-size:1em;}
+
+      .add, .cut
+      {
+        background: #9AF;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        background-image: -moz-linear-gradient(#00ADEE 5%, #0078A5 100%);
+        background-image: -webkit-linear-gradient(#00ADEE 5%, #0078A5 100%);
+        border-color: #0076A3;
+        color: #FFF;
+        cursor: pointer;
+        font-weight: bold;
+        text-shadow: 0 -1px 2px rgba(0,0,0,0.333);
+      }
+
+      .add { margin: -2.5em 0 0; }
+
+      .add:hover { background: #00ADEE; }
+
+      .cut { opacity: 0; position: absolute; top: 0; left: -1.5em; }
+
+      tr:hover .cut { opacity: 1; }
+
+      @media print {
+        * { -webkit-print-color-adjust: exact; }
+        html { background: none; padding: 0; }
+        body { box-shadow: none; margin: 0; }
+        span:empty { display: none; }
+        .add, .cut { display: none; }
+      }
+
+      @page { margin: 0; }
+	    .total{word-wrap:break-word;}
+	 
+	    #block_container {
+        text-align: center;
+      }
+      #block_container > div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.font_bold{font-weight:bold;line-height:4px;}
+.new_th{background-color: #EEE;border:1px solid #BBB;padding: 8px !important;position: relative;text-align: left;}
+.new_td{border:1px solid #BBB;}
+    </style>
+
+   </head>
+
+
+  <body>
+
+
+<div id="wrapper" style="width:100%;">
+
+<div class="header">
+
+  
+ <address style="margin-left:10px; font-weight:bold;">
+  
+   <p class="font_bold"><var> echo $orgzName ; </var></p>
+   <p class="font_bold"><var> echo $c_buildingName; </var></p>
+   <p class="font_bold"><var> echo $c_line1; </var></p>
+   <p class="font_bold"><var> echo @$c_line2; </var></p>
+   <p class="font_bold"><var> echo @$c_streetRoad; </var></p>
+   <p class="font_bold"><var> echo $c_city; </var></p>
+   <p class="font_bold"><var> echo $c_postCode; </var></p>
+  </address>
+</div>
+
+
+<div class='article'><br>
+  <table class="meta" style="text-align:right;">
+    <tr>
+      <th class="new_th" style="font-weight:bold;">INVOICE #</th>
+      <td class="new_td"><var> echo $invoiceNo; </var></td>
+    </tr>
+    <tr>
+      <th class="new_th" style="font-weight:bold;"><span>DATE</span></th>
+      <td class="new_td"><span class="date">
+      <var> echo _invoiceDated</var>
+      </span></td>
+    </tr>
+    <tr>
+      <th class="new_th" style="font-weight:bold;"><span>BOOKING REF/NAME </span></th>
+      <td class="new_td"><span id="prefix"><var> echo @$nameRef; </var></span></td>
+    </tr>
+    <tr>
+      <th class="new_th" style="font-weight:bold;">PURCHASE ORDER NO.</th>
+      <td class="new_td"><var> echo @$porder; </var></td>
+    </tr>
+  </table>
+<br>
+  <table class="inventory">
+    <thead>
+      <tr>
+        <th class="new_th">ASSIGNMENT DATE<br></th>
+        <th class="new_th">ASSIGNMENT TYPE</th>
+        <th class="new_th">INVOICE DUE DATE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="new_td"><a class="cut">-</a><span class="total"><var> echo _assignDate; </var></span></td>
+        <td class="new_td">Face to Face</td>
+        <td class="new_td"><span class="total"><var> echo _15DaysTime; </var></span></td>
+      </tr>
+    </tbody>
+  </table><br>
+  <table class="inventory">
+    <thead>
+      <tr>
+        <th class="new_th">JOB ADDRESS</th>
+        <th class="new_th">LINGUIST</th>
+        <th class="new_th">LANGUAGE</th>
+        <th class="new_th">CASE WORKER NAME</th>
+        <th class="new_th">FILE REFERENCE (CLIENT REFERENCE)</th>
+        <th class="new_th">BOOKING TYPE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="new_td">
+          <a class="cut">-</a>
+          <span class="total"><var> echo @$buildingName; </var>, </span>
+          <span class="total"><var> echo @$street; </var>, </span>
+          <span class="total"><var> echo @$assignCity; </var>, </span>
+          <span class="total"><var> echo @$postCode; </var></span>
+        </td>
+        <td class="new_td"><span class="total"><var> echo @$intrpName; </var></span></td>
+        <td class="new_td"><span class="total"><var> echo @$source; </var> to <var> echo @$target; </var></span></td>
+        <td class="new_td"><span class="total"><var> echo @$orgContact; </var></span></td>
+        <td class="new_td"><span class="total"><var> echo @$orgRef; </var></span></td>
+        <td class="new_td"><var> echo @$bookinType; </var></td>
+      </tr>
+    </tbody>
+  </table><br>
+  <table class="inventory">
+    <thead>
+      <tr>
+        <th class="new_th">UNIT PRICE(£)</th>
+        <th class="new_th">UNITS</th>
+        <th class="new_th">JOB COST(£)</th>
+        <th class="new_th">OTHER EXPENSES <br/><span style="font-size:9px">( Non- VATable e.g. Public Transport, Parking or Bridge Toll)</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="new_td"><a class="cut">-</a><span class="total"><var> echo _rateHour; </var></span></td>
+        <td class="new_td"><span class="total"><var> echo _totalhoursworked; </var></span></td>
+        <td class="new_td"><var> echo _totalhourspaid; </var></td>
+        <td class="new_td"><span class="total"><var> echo _otherexpns; </var></span></td>
+      </tr>
+    </tbody>
+  </table><br>
+  <table class="inventory">
+    <thead>
+      <tr>
+        <th class="new_th">TRAVEL TIME IF APLICABLE</th>
+        <th class="new_th">TRAVEL COST@ £<var> echo @$travelTimeRate; </var></th>
+        <th class="new_th">MILEAGE</th>
+        <th class="new_th">MILEAGE COST @ £<var> echo @$rateMile; </var></th>
+        <th class="new_th">ADMIN CHARGES</th>
+        <th class="new_th">JOB  COST(£)</th>
+        <th class="new_th">VAT(£)</th>
+        <th class="new_th">NON-VATABLE  COSTS(£)</th>
+        <th class="new_th">TOTAL  INVOICE COST(£)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="new_td"><a class="cut">-</a><span class="total"><var> echo _travelTimeHour; </var></span></td>
+        <td class="new_td"><span class="total"><var> echo _travelTimeCost; </var></span></td>
+        <td class="new_td"><span class="total"><var> echo _travelMile; </var></span></td>
+        <td class="new_td"><span class="total"><var> echo _total4; </var></span></td>
+        <td class="new_td"><span class="total"><var> echo _C_admnchargs; </var></span></td>
+        <td class="new_td"><var> echo $_total5 </var></td>
+        <td class="new_td"><var> echo _vat </var></td>
+        <td class="new_td"><span class="total"><var> echo _C_otherexpns; </var></span></td>
+        <td class="new_td"><span style="color:#000"><var> echo _vattotalexp; </var></span></td>
+      </tr>
+    </tbody>
+  </table>
+
+<!--<aside>-->
+<div class="aside">
+<br/><br/>
+<span style="margin-left:10px">Comments: <var> echo _comments </var></span>
+<br/><br/>
+<span style="margin-left:10px"><var> echo _write_cancel_type </var></span>
+<br/><br/>
+<span style="margin-left:10px"><var> echo _write_cancel_remarks </var></span>
+<br/><br/>
+
+<div style="width:95%" align="center">
+<p style=" font-size:14px;" align="center">Please make all cheques payable to Language Services UK Limited for BACS payment Sort Code 20-13-34 Account Number 33161234.
+Company Registration Number 7760366 VAT Number 198427362 D-U-N-S Number: 217435824
+Thank You For Doing Business With Us<br/><br/>
+
+Please pay your invoice within <var> echo @$payment_terms; </var> days from the date of invoice.<span style="color:#F00"> Compensation fee and interest charges at 1.5% per day will be added to invoice total in accordance with the "Late Payment of Commercial Debts Interests Act 1998" </span>if no payment was made within reasonable time frame<br/><br/>
+
+Language Services UK Limited
+Translation and Interpreting Service
+Suite 3 Davis House Lodge Causeway Trading Estate
+Lodge Causeway - Fishponds Bristol BS163JB
+
+
+</p></div>
+
+<!--</aside>-->
+</div>
+
+</div>
+
+</div>
+
+
+
+  </body>
+</html>
